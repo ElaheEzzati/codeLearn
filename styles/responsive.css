@@ -1,0 +1,175 @@
+.container {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 680px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 870px;
+    }
+
+    .upper-part{
+        padding: 3.5rem 4rem;
+    }
+
+    .app-logo{
+        max-width: 8rem;
+        max-height: 5.7rem;
+    }
+
+    .main-header__img{
+        width: 42rem;
+    }
+
+    .main-header__link{
+        font-size: 2rem;
+        padding: 1rem 8rem;
+    }
+
+    .section__header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+
+    .nav__btn,.navigation{
+        display: none;
+    }
+
+    .search{
+        display:inline-block ;
+    }
+
+    .lower-part{
+        display: flex;
+    }
+
+    .main-header .row{
+        flex-direction: row;
+    }
+
+    .main-header__img{
+        width: 48rem;
+    }
+
+    .panel__nav-btn{
+        display: none;
+    }
+
+    .panel__header-title{
+        display: inline-block;
+    }
+
+    .panel__title,.navigation__exit{
+        display: none;
+    }
+
+    .panel__nav{
+        position: unset;
+        flex-grow: 1;
+        height: 100vh;
+
+    }
+
+    .panel__content{
+        flex-grow: 7;
+        margin-top: 3.5rem;
+        margin-left: 3.5rem;
+        border-radius: 2rem;
+        background-color: var(--section-color);
+        padding: 3rem;
+
+    }
+
+    .panel{
+        margin-left: -4rem;
+        margin-right: -4rem;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .course-info{
+        background-color: var(--app-bg-color);
+        box-shadow: unset;
+    }
+
+    .course-info .row{
+        flex-direction: row;
+    }
+
+    .course-info__footer{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .course-info__btn{
+        width: auto;
+    }
+
+    .course-info__content{
+        padding: 0 0 0 3rem;
+    }
+
+    .course-info__title-des{
+        border-bottom: unset;
+    }
+
+    .aside{
+        margin-top: 0;
+    }
+    
+
+    .course-data__wrapper{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+
+    .main-header__title{
+        font-size: 6rem;
+    }
+
+    .main-header__caption{
+        font-size: 2.5rem;
+    }
+
+
+    .login-signup{
+        display: block;
+    }
+
+    .login-mobile{
+        display: none;
+    }
+    
+    .question{
+        margin-top: 2rem
+    }
+}
+
+@media (min-width: 1400px){
+    .container{
+        max-width: 1370px;
+    }
+}
